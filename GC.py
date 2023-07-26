@@ -8,13 +8,13 @@ ac = 0
 
 for thing in range(len(lines)):
     if '>' in lines[thing]:
-        counter.append(thing+1)
+        counter.append(thing + 1)
         
 for thing in range(len(lines)):
     if '>' in lines[thing]:
         lines[thing] = lines[thing].replace('>','')
-        if len(counter) > ac+1:
-            newlist = lines[counter[ac]:(counter[ac+1]-1)]
+        if len(counter) > ac + 1:
+            newlist = lines[counter[ac]:(counter[ac + 1] - 1)]
         else:
             newlist = lines[counter[ac]:]
         ac += 1
