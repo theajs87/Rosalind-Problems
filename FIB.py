@@ -1,9 +1,9 @@
 # Problem 4 - Rabbits and Recurrence Relations
 fibfile = open('rosalind_fib.txt', 'r')
-string = fibfile.read()
+string = fibfile.read().split()
 
-n = int(string[:2])
-k = int(string[3:])
+n = int(string[0])
+k = int(string[1])
 f1 = 1
 f2 = 1
 answer = 0
