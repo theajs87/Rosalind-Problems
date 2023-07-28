@@ -1,15 +1,15 @@
 # Problem 6 - Counting Point Mutations
 hammfile = open('rosalind_hamm.txt', 'r')
-string = ''.join(hammfile.read().splitlines())
+string = hammfile.read().split()
 
-s = string[:len(string)//2]
-t = string[len(string)//2:]
+s = string[0]
+t = string[1]
 
 S = list(s)
 T = list(t)
 counter = 0
 
-for i in range(len(string)//2):
+for i in range(len(s)):
     if S[i] != T[i]:
         counter +=1 
 
