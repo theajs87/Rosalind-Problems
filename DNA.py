@@ -1,6 +1,6 @@
 # Problem 1 - Counting DNA Nucleotides
 dnafile = open('rosalind_dna.txt', 'r')
-s = dnafile.read().rstrip()
+s = dnafile.read()
 
 slist = list(s)
 aA = 0
