@@ -1,4 +1,4 @@
-# Problem 3 - Complementing a Strand of DNA
+# REVC - Complementing a Strand of DNA
 revcfile = open('rosalind_revc.txt', 'r')
 s = revcfile.read().rstrip()
 
