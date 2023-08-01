@@ -1,4 +1,4 @@
-# Problem 5 - Computing GC Content
+# GC - Computing GC Content
 # Makeshift FASTA parser - ugly but am working to optimise it
 FASTAFile = open("rosalind_gc.txt","r")
 lines = FASTAFile.read().splitlines()
