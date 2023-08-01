@@ -1,4 +1,4 @@
-# Problem 4 - Rabbits and Recurrence Relations
+# FIB - Rabbits and Recurrence Relations
 fibfile = open('rosalind_fib.txt', 'r')
 string = fibfile.read().split()
 
