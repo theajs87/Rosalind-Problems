@@ -1,4 +1,4 @@
-# Problem 8 - Translating RNA into Protein
+# PROT - Translating RNA into Protein
 protfile = open("rosalind_prot.txt","r")
 string = protfile.read().rstrip()
 lcodon = [string[i:i+3] for i in range(0, len(string), 3)]
