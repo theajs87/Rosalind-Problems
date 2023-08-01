@@ -1,4 +1,4 @@
-# Problem 7 - Mendel's First Law
+# IPRB - Mendel's First Law
 iprbfile = open("rosalind_iprb.txt","r")
 lines = iprbfile.read().split()
 
