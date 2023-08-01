@@ -1,4 +1,4 @@
-# Problem 9 - Finding a Motif in DNA
+# SUBS - Finding a Motif in DNA
 subsfile = open("rosalind_subs.txt","r")
 string = subsfile.read().split()
 s = string[0]
