@@ -1,4 +1,4 @@
-# Problem 6 - Counting Point Mutations
+# HAMM - Counting Point Mutations
 hammfile = open('rosalind_hamm.txt', 'r')
 string = hammfile.read().split()
 
