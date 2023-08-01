@@ -1,4 +1,4 @@
-# Problem 2 - Transcribing DNA into RNA
+# RNA - Transcribing DNA into RNA
 rnafile = open('rosalind_rna.txt', 'r')
 t = rnafile.read().rstrip()
 
