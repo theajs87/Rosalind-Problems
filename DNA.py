@@ -3,10 +3,7 @@ dnafile = open('rosalind_dna.txt', 'r')
 s = dnafile.read().rstrip()
 
 slist = list(s)
-aA = 0
-aC = 0
-aG = 0
-aT = 0
+aA, aC, aG, at = 0, 0, 0, 0
 
 for i in range(len(s)):
     if slist[i] == 'A':
