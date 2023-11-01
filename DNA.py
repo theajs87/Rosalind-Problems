@@ -14,4 +14,5 @@ for i in range(len(s)):
         aG += 1
     if slist[i] == 'T':
         aT += 1
+        
 print(aA, aC, aG, aT)
