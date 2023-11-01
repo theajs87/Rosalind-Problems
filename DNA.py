@@ -2,7 +2,7 @@
 dnafile = open('rosalind_dna.txt', 'r')
 s = dnafile.read().rstrip()
 
-aA, aC, aG, at = 0, 0, 0, 0
+aA, aC, aG, aT = 0, 0, 0, 0
 
 for i in s:
     if i == 'A':
